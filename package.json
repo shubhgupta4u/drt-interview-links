@@ -3,10 +3,10 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --port 4444 -o",
+    "start": "ng serve --port 9898 -o",
     "start-local-server": "run-p start-db start-app",
-    "start-app": "ng serve --port 4242 -o",
-    "start-db": "json-server --watch data/courses-info.json --port 4243",
+    "start-app": "ng serve --port 9898 -o",
+    "start-db": "json-server --watch data/data.json --port 4243",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
