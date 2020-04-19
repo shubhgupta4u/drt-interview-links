@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  apiBaseUrl: "http://localhost:4243/",
   firebase: {
     apiKey: "AIzaSyCdlJuD7UPG-bgArxpAbeY0CkVWXFxwxKA",
     authDomain: "deskready-ec8d0.firebaseapp.com",
@@ -13,7 +14,6 @@ export const environment = {
     messagingSenderId: "1090665671973",
     appId: "1:1090665671973:web:c8dfe11fc5d3232b9cfecc",
     measurementId: "G-WX9T70L7NS"
-
   }
 };
 

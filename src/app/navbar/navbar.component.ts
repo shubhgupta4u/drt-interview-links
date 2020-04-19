@@ -8,6 +8,7 @@ import { AngularFireAuth } from '@angular/fire/auth';
   styleUrls: ["./navbar.component.css"]
 })
 export class NavbarComponent {
+
   title = "Website Redesign";
   isLoggedIn = false;
   userDisplayName: string;
